@@ -7,7 +7,8 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "3.0.0-rc.8"
+    "nuxt": "3.0.0-rc.8",
+    "unplugin-vue-components": "^0.22.4"
   },
   "dependencies": {
     "vant": "^3.5.4",
