@@ -9,19 +9,23 @@
 			</template>
 		</van-nav-bar>
 
-		<van-swipe :autoplay="3000" lazy-render>
-			<van-swipe-item v-for="image in images" :key="image">
-				<img :src="image" />
-			</van-swipe-item>
-		</van-swipe>
-		<van-grid :column-num="3">
-			<van-grid-item
-				v-for="value in 6"
-				:key="value"
-				icon="photo-o"
-				text="文字"
-			/>
-		</van-grid>
+		<van-cell-group inset>
+			<van-swipe :autoplay="3000" lazy-render>
+				<van-swipe-item v-for="image in images" :key="image">
+					<img :src="image" />
+				</van-swipe-item>
+			</van-swipe>
+		</van-cell-group>
+		
+		<van-cell-group inset>
+			<van-grid :column-num="3">
+				<van-grid-item
+					v-for="value in 6"
+					:key="value"
+					icon="photo-o"
+					text="文字"
+				/> </van-grid
+		></van-cell-group>
 	</div>
 </template>
 <script setup>
