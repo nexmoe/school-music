@@ -5,3 +5,5 @@
 		</template>
 	</van-nav-bar>
 </template>
+
+<script setup></script>
