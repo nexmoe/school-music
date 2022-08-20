@@ -1,8 +1,6 @@
 <template>
 	<div class="layout-default">
-		<Header />
-			<slot />
-		<TabBar />
+		<slot />
 	</div>
 </template>
 
@@ -13,5 +11,8 @@ body {
 .van-cell-group {
 	margin-top: 16px;
 	margin-bottom: 16px;
+}
+.van-nav-bar {
+	background-color: #f7f8fa;
 }
 </style>

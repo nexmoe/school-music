@@ -28,9 +28,10 @@
 </template>
 
 <script setup>
-const email = ref("");
-const password = ref("");
+const email = ref("test@mail.com");
+const password = ref("test");
 const onSubmit = (values) => {
-	console.log("submit", values);
+	localStorage.setItem("isLogin", "true");
+	useRouter().push("/user");
 };
 </script>
