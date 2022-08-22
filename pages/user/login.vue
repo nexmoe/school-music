@@ -1,6 +1,9 @@
 <template>
 	<div>
-		<van-form @submit="onSubmit">
+		<Header />
+
+		<van-form @submit="onSubmit" class="form">
+			<h1>登录</h1>
 			<van-cell-group style="margin: 16px" inset>
 				<van-field
 					v-model="email"
@@ -20,8 +23,11 @@
 			</van-cell-group>
 			<div style="margin: 16px">
 				<van-button round block type="primary" native-type="submit">
-					提交
+					立即登录
 				</van-button>
+			</div>
+			<div style="margin: 16px">
+				<van-button round block> 注册 </van-button>
 			</div>
 		</van-form>
 	</div>
@@ -35,3 +41,15 @@ const onSubmit = (values) => {
 	useRouter().push("/user");
 };
 </script>
+
+<style scoped>
+h1 {
+	text-align: center;
+	margin-bottom: 32px;
+	color: #fff;
+}
+.form {
+	margin-top: 50vh;
+	transform: translateY(-70%);
+}
+</style>
