@@ -12,4 +12,5 @@ export default defineNuxtConfig({
 		],
 	},
 	plugins: ["@/plugins/vant"],
+	build: { transpile: [/vant/] },
 });
