@@ -5,14 +5,18 @@
 </template>
 
 <style>
-body {
-	background-color: #f7f8fa;
+body,
+.van-nav-bar {
+	background-color: #261d27;
+}
+.van-nav-bar::after {
+	border: none
 }
 .van-cell-group {
 	margin-top: 16px;
 	margin-bottom: 16px;
 }
-.van-nav-bar {
-	background-color: #f7f8fa;
+.van-nav-bar__title {
+	color: #fff;
 }
 </style>

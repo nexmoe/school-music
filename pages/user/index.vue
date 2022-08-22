@@ -70,6 +70,7 @@ const logout = () => {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	color: #fff;
 }
 .user > * {
 	margin-top: 16px;
