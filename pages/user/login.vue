@@ -27,7 +27,7 @@
 				</van-button>
 			</div>
 			<div style="margin: 16px">
-				<van-button round block> 注册 </van-button>
+				<van-button @click="useRouter().push('/user/register')" round block> 注册 </van-button>
 			</div>
 		</van-form>
 	</div>
