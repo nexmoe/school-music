@@ -65,7 +65,7 @@ const onClickLeft = () => useRouter().push("/");
 onMounted(() => {
 	const isLogin = localStorage.getItem("isLogin");
 
-	if (isLogin == "false") {
+	if (isLogin !== "true") {
 		useRouter().push("/user/login");
 	}
 });
