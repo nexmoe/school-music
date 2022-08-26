@@ -3,7 +3,7 @@
 		<Header />
 
 		<van-form @submit="onSubmit" class="form">
-			<h1>登录</h1>
+			<h1>注册</h1>
 			<van-cell-group style="margin: 16px" inset>
 				<van-field
 					v-model="email"
@@ -20,14 +20,22 @@
 					placeholder="密码"
 					:rules="[{ required: true, message: '请填写密码' }]"
 				/>
+                <van-field
+					v-model="password"
+					type="password"
+					name="重复密码"
+					label="重复密码"
+					placeholder="重复密码"
+					:rules="[{ required: true, message: '请填写密码' }]"
+				/>
 			</van-cell-group>
 			<div style="margin: 16px">
 				<van-button round block type="primary" native-type="submit">
-					立即登录
+					注册
 				</van-button>
 			</div>
 			<div style="margin: 16px">
-				<van-button @click="useRouter().push('/user/register')" round block> 注册 </van-button>
+				<van-button @click="useRouter().push('/user/login')" round block> 已有账号 </van-button>
 			</div>
 		</van-form>
 	</div>
@@ -36,6 +44,7 @@
 <script setup>
 const email = ref("test@mail.com");
 const password = ref("test");
+
 const onSubmit = (values) => {
 	localStorage.setItem("isLogin", "true");
 	useRouter().push("/user");
