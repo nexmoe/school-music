@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<van-nav-bar left-arrow @click-left="onClickLeft">
+		<van-nav-bar left-arrow @click-left="useRouter().push('/')">
 			<template #right>
 				<van-icon name="paid" size="18" />
 			</template>
@@ -61,7 +61,6 @@
 </template>
 
 <script setup>
-const onClickLeft = () => useRouter().push("/");
 onMounted(() => {
 	const isLogin = localStorage.getItem("isLogin");
 
