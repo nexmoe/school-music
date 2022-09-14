@@ -19,4 +19,8 @@ body,
 .van-nav-bar__title {
 	color: #fff;
 }
+.van-cell-group::after,
+.van-grid-item__content::after {
+	display: none
+}
 </style>
