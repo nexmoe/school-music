@@ -1153,10 +1153,10 @@ anymatch@^3.1.2, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-appwrite@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-9.0.1.tgz#9f721896e2e1a3e667b55b9e75bd5eff17ccf9e3"
-  integrity sha512-yLxb5H2fqlK0l4q6eEzrb5HGs3xA2894wcLIseOJ2v/iqUmjuIjXfLUpWG+DC94CQmEdZCxwvIFUVO/AG/t+cw==
+appwrite@10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-10.1.0.tgz#c4e2599ee26bd35b2cde15d0b92003a58a946d91"
+  integrity sha512-kHtPqKf0X+mxmkS47G3F5vVY5wKMVRv7ZTpTvd9H3m1KBIm3aDAEBCEUt6bGQdE8XKgqLFzhqWFdQWkxX6I0xA==
   dependencies:
     cross-fetch "3.1.5"
     isomorphic-form-data "2.0.0"
