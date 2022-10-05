@@ -912,10 +912,10 @@ anymatch@^3.1.2, anymatch@~3.1.2:
     normalize-path "^3.0.0"
     picomatch "^2.0.4"
 
-appwrite@9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-9.0.1.tgz#9f721896e2e1a3e667b55b9e75bd5eff17ccf9e3"
-  integrity sha512-yLxb5H2fqlK0l4q6eEzrb5HGs3xA2894wcLIseOJ2v/iqUmjuIjXfLUpWG+DC94CQmEdZCxwvIFUVO/AG/t+cw==
+appwrite@9.0.2:
+  version "9.0.2"
+  resolved "https://registry.yarnpkg.com/appwrite/-/appwrite-9.0.2.tgz#f2a5d546a7b7f9a48641eb45769d084f6e0cab73"
+  integrity sha512-3mhI9eNzOz8k9d2RDuYQdA9BHCgmT3HvtsVdxHcY20ps8TnEj38jx3NilQ/60G6ALrdMt79u9mYIRsj4ftitTw==
   dependencies:
     cross-fetch "3.1.5"
     isomorphic-form-data "2.0.0"
