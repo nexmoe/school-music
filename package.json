@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/composition-api": "0.33.1",
-    "@pinia/nuxt": "0.4.1",
+    "@pinia/nuxt": "0.4.5",
     "appwrite": "^10.1.0",
     "pinia": "2.0.20",
     "vant": "3.5.4",
