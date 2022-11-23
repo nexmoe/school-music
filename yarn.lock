@@ -687,10 +687,10 @@
   dependencies:
     "@popperjs/core" "^2.9.2"
 
-"@vant/use@^1.4.1":
-  version "1.4.1"
-  resolved "https://registry.npmjs.org/@vant/use/-/use-1.4.1.tgz#22cdd81c6e2cf8dc746278608a3facbd4fdbcdc7"
-  integrity sha512-YonNN0SuJLEJuqdoMcVAJm2JUZWkHNrW81QzeF6FLyG5HFUGlmTM5Sby7gdS3Z/8UDMlkWRQpJxBWbmVzmUWxQ==
+"@vant/use@^1.4.2":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@vant/use/-/use-1.4.3.tgz#0c542fe01a1439878e4aa8779d1791e189610d30"
+  integrity sha512-rSnETN7P9qT1WbItMpQxBqe3cHeK2ZFYp1sCxWUXaTeI71TqA8sOdzC36ledZ36NQgFNTch9fsRPYOkrCgZfQA==
 
 "@vercel/nft@^0.21.0":
   version "0.21.0"
@@ -4343,14 +4343,14 @@ util-deprecate@^1.0.1, util-deprecate@^1.0.2, util-deprecate@~1.0.1:
   resolved "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-vant@3.5.4:
-  version "3.5.4"
-  resolved "https://registry.yarnpkg.com/vant/-/vant-3.5.4.tgz#d71de4e34e373784f88ac0d717287ccae9369771"
-  integrity sha512-NwKDfYk1A1ax4WZRSpOse0GsDSMQWoB245fhzzduXW6J3qv4f/cn3CedxH/uzBXglhNXovFTExFvnYjt5fzp3Q==
+vant@3.6.6:
+  version "3.6.6"
+  resolved "https://registry.yarnpkg.com/vant/-/vant-3.6.6.tgz#b2c648c013a46466b7f5409a0fd46635c0dc94d8"
+  integrity sha512-JjA5EuB9XD9YHz7gL2U3J8DlA1B966BIplVu6m5gBgodQSjLzE6WvF9TAhwl7h2aDQuLXyn88pVZixaFTIMSPw==
   dependencies:
     "@vant/icons" "^1.8.0"
     "@vant/popperjs" "^1.2.1"
-    "@vant/use" "^1.4.1"
+    "@vant/use" "^1.4.2"
 
 vite-node@^0.21.1:
   version "0.21.1"
